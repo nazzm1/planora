@@ -261,6 +261,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 17px;
+    background-color: #722B3A;
 }
 
 .category-card {
@@ -355,14 +356,16 @@ footer {
 .page-title {
     text-align: center;
     padding: 55px 20px 35px;
+    background-color: #722B3A;
 }
 
 .page-title h1 {
     font-size: 40px;
+    color: #E9D9D3;
 }
 
 .page-title p {
-    color: var(--muted);
+    color: #ddd0c9;
     margin-top: 12px;
 }
 
