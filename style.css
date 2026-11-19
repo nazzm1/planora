@@ -261,7 +261,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 17px;
-    background-color: #E9D9D3;
+    background-color: #FAF8F5;
 }
 
 .category-card {
