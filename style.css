@@ -261,7 +261,20 @@ h1 {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 17px;
-    background-color: #FAF8F5;
+}
+
+.categories-bg {
+    background-color: #722B3A;
+    width: 100%;
+}
+
+.categories-bg .section-heading h2 {
+    color: #FAF8F5;
+}
+
+.categories-bg .section-heading > p:last-child,
+.categories-bg .subtitle {
+    color: #E9D9D3;
 }
 
 .category-card {
@@ -291,6 +304,7 @@ h1 {
     margin: 15px 7px 6px;
     color: var(--dark-burgundy);
 }
+
 
 .category-card p {
     color: var(--muted);
