@@ -48,6 +48,23 @@ h1, h2, h3 {
     z-index: 20;
 }
 
+.site-brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.site-brand-img {
+    height: 44px;
+    width: auto;
+    object-fit: contain;
+}
+
+.site-brand-text {
+    display: flex;
+    flex-direction: column;
+}
+
 .logo {
     display: flex;
     align-items: center;
